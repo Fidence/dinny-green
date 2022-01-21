@@ -92,13 +92,12 @@ header .container_box1 .butt .button {
 header .container_box1 .butt .button a {
   text-decoration: none;
   color: #038C33;
-  padding: 0 20px;
+  padding: 6px 22px;
   border: none;
 }
 
 header .container_box1 .butt .button a:hover {
   background-color: #038C33;
-  padding: 6px 22px;
   color: #ffffff;
   border-radius: 5PX;
 }
@@ -223,6 +222,11 @@ header .showcase .btn {
   margin-top: 30px;
 }
 
+header .showcase .btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 header .showcase .btn_light {
   margin-right: 20px;
   gap: 1rem;
@@ -232,6 +236,11 @@ header .showcase .btn_light {
   border: none;
   border-radius: 5px;
   margin-top: 30px;
+}
+
+header .showcase .btn_light:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 header .showcase .blury {
@@ -256,13 +265,15 @@ header .showcase .blury {
   margin-top: 30px;
 }
 
+.advance .advance-system button:hover, .find_more button:hover, .popular button:hover, .teacher .bb_btn:hover, .contact button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .advance {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   padding: 100px;
   width: 100%;
   height: 700px;
@@ -442,14 +453,15 @@ header .showcase .blury {
   width: 100%;
   height: 600px;
   margin-top: 100px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   background-color: #ffffff;
 }
 
 .find_more {
-  padding: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 50px;
+  margin-left: 160px;
 }
 
 .find_more h1 {
@@ -471,7 +483,15 @@ header .showcase .blury {
   overflow: hidden;
 }
 
+.find_more ul li i {
+  color: #038C33;
+  margin-right: 5px;
+}
+
 .find .find_out {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -577,6 +597,10 @@ header .showcase .blury {
       -ms-flex-align: center;
           align-items: center;
   color: #6c757d;
+}
+
+.popular_instructors .instructors_1 .date i {
+  color: #038C33;
 }
 
 .popular_instructors .instructors_1 h4 {
@@ -926,7 +950,7 @@ header .showcase .blury {
 
 .teacher .bb_btn {
   display: block;
-  margin: 1px auto;
+  margin: 0 auto;
 }
 
 .teacher a {
@@ -1012,7 +1036,7 @@ footer .foot p, footer .foot li {
 
 footer .foot h4 {
   color: #f2f2f2;
-  padding-bottom: 10px;
+  padding-bottom: 23px;
 }
 
 footer .foot .foot1 {
@@ -1028,7 +1052,7 @@ footer .foot .foot2 {
 }
 
 footer .foot .foot2 .line {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 2px solid #ADD9BD;
 }
 
@@ -1067,8 +1091,14 @@ footer .foot .foot2 .btnn {
   border: none;
 }
 
+footer .foot .foot2 i {
+  padding: 7px 10px;
+  color: #ffffff;
+  background-color: #038C33;
+}
+
 footer .align {
-  margin-top: 120px;
+  margin-top: 20px;
   color: #f2f2f2;
   text-align: center;
   font-size: 13px;
@@ -1089,8 +1119,10 @@ footer .socials .space {
   margin-right: 10px;
 }
 
-footer .socials .mouse {
-  background-color: #038C33;
-  color: white;
+footer .underline {
+  border-bottom: 1px solid #777777;
+  width: 1119px;
+  margin: 0 auto;
+  margin-top: 120px;
 }
 /*# sourceMappingURL=style.css.map */
